@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "dev": "webpack serve",
+    "dev": "webpack serve NODE_ENV=development",
     "build": "cross-env NODE_ENV=production webpack"
   },
   "dependencies": {
